@@ -17,10 +17,20 @@ This project is an interactive Telegram bot powered by AI. Users can send messag
 1. Send a message to the Telegram bot.
 2. The AI will process your message and reply with a smart response.
 
+## Running in n8n
+
+1. Import the workflow JSON file into your n8n instance.
+2. Configure your credentials:
+
+   * Telegram Bot API token
+   * Google Gemini (PaLM) API key
+3. Activate the workflow.
+4. Send a message to your Telegram bot to start interacting with the AI.
+
 ## Notes
 
-* Ensure your Telegram Bot API token is correctly configured in n8n.
 * The workflow handles character escaping to prevent Telegram parsing errors.
+* Make sure your Telegram Bot API token and Google API credentials are correct.
 
 ## Contact
 
@@ -32,4 +42,5 @@ For any questions or further information, you can:
 ---
 
 Optional: Include screenshots or GIFs showing the bot in action to make the README more engaging.
+ action to make the README more engaging.
 
